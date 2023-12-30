@@ -1,0 +1,5 @@
+# Tuples Method and functions.
+# keep in mind tupples are unmutable.
+
+emptytuple = tuple()
+tuple_name = ('x','y','z')

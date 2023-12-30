@@ -1,0 +1,10 @@
+#Sets methods and functions
+#order is not important in sets
+
+empty_set = set()
+set = {'x','y','z'}
+
+find            ==> print('x' in set) #boolean
+Intersection    ==> print(set1.intersection(set2))
+Difference      ==> print(set1.difference(set2))  #A-B
+Union           ==> print(set1.union(set2)) #AUB

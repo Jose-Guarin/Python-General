@@ -1,0 +1,37 @@
+# List methods and functions
+
+creation ==> name = ['x','y','z']
+	     ==> num = [2,3,4]
+		 ==> emptylist = list()
+		 
+print	 ==> print(name)
+length	 ==> print(len(name))
+values	 ==> print(name[0])
+slides	 ==> print(name [0:2:1]) # [0,2) and last value is the step
+add	     ==> name.append('w')
+	     ==> name.insert(0,'w')
+	     ==> name.extend(num)	# do not forget to print(name)
+remove   ==> name.remove('w')
+		 ==> name.pop()		 
+reverse  ==> name.reverse()
+sort     ==> name.sort() #ascending
+sort     ==> name.sort(reverse = True) #descending
+			 sortedname = sorted(name)
+				print(sortedname)
+				
+minimum  ==> print(min(num))
+maximun  ==> print(max(num))
+sumatory ==> print(sum(num))
+find     ==> print(name.index('x'))
+		 ==> print('x' in name) # return boolean.
+List     ==> for item in name:
+				print(item)
+				
+Enumerate==> for index, item in enumerate(name):
+				print(index,item)
+				
+		 ==> for index, item in enumerate(name, start = 1):
+				print(index,item)
+
+Joint    ==> name_str = ' _ '.join(name)
+Split    ==> newlist = name_str.split(' - ')

@@ -27,8 +27,3 @@ for key in dic.item():
 
 for key,value in dic.item():
   print(key,value)
-
-
-
-
-  
